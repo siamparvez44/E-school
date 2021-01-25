@@ -1,0 +1,136 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+section{
+    margin-bottom: 100px;
+}
+.top-section{
+    width: 100%;
+    padding-bottom: 80px;
+    background-color: #F0FFF0;
+}
+.top-section .container-sm{
+    width: 80%;
+    margin: 0 auto;
+}
+.navbar img{
+    width: 200px;
+}
+/* collapse right and text right */
+/*.navbar-collapse{
+    display: flex;
+    align-items: end;
+    text-align: right;
+} */
+.navbar-toggler{
+    border: none;
+}
+.custom-toggler {
+    border: none;
+}
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+}
+.nav-item{
+    margin-left: 18px;
+}
+.green-button{
+    padding: 12px 28px;
+    background-color: #21B573;
+    border: none;
+    border-radius: 33px;
+    color: white;
+}
+.green-button:hover{
+    transform: scale(1.05);
+    background-color: #19a566;
+    box-shadow: 0px 0px 5px lightgray;
+}
+.top-part{
+    margin-top: 70px;
+}
+.orange-text{
+    color: #FD511A;
+}
+.top-part h1{
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 70px;
+}
+.top-part span{
+    color: #21B573;
+}
+
+.book-box{
+    height: 250px;
+    background: #F8FFFB;
+    border-radius: 10px;
+    margin: 20px 0px;
+    text-align: center;
+    padding-top: 50px;
+    cursor: pointer;
+}
+.book-box:hover{
+    background: #ffffff;
+    transform: scale(1.05);
+    box-shadow: 0px 0px 20px lightgrey;
+}
+.book-box img{
+    height: 80px;
+    margin-bottom: 20px;
+}
+.book-box h5{
+    font-weight: 600;
+    color: #413960;
+}
+.online-courses .container-sm{
+    width: 80%;
+    margin: 0 auto; 
+}
+.online-courses h3{
+    color: #413960;
+    font-weight: 700;
+    text-align: center;
+    margin: 0px 0px 80px 0px;
+}
+.card{
+    margin: 50px 0px 0px 0px;
+    padding: 15px;
+    border: none;
+    border-radius: 5%;
+    box-shadow: 0px 0px 15px lightgray;
+}
+.card-title{
+    font-weight: 600;
+    color: #413960;
+}
+.card-text{
+    color: #585859;
+}
+.card-footer{
+    padding: 10px 10px 0px 10px;
+    border: none;
+    background: #ffffff;
+    display: flex;
+    justify-content: space-between;
+}
+.card-footer img{
+    height: 25px;
+    border-radius: 5%;
+}
+.card-footer p{
+    color: #585859;
+}
+footer{
+    background: #282531;
+    padding: 100px 0;
+}
+footer ul{
+    margin: 0px;
+    list-style: none;
+}
