@@ -1,4 +1,4 @@
-body{
+*{
     margin: 0px;
     padding: 0px;
     font-family: 'Poppins', sans-serif;
@@ -134,3 +134,4 @@ footer ul{
     margin: 0px;
     list-style: none;
 }
+
